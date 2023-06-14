@@ -1,0 +1,16 @@
+@media screen and (min-width: 50em) {
+  body {
+    display: grid;
+    place-content: center;
+  }
+  .main {
+    width: 100%;
+    max-width: 63rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .main__article__btn {
+    margin-top: 5rem;
+  }
+}
+
+/*# sourceMappingURL=styledesk.css.map */
